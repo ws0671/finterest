@@ -1,4 +1,5 @@
 @import "introduce.css";
+@import "normalize.css";
 
 body {
   color: white;
