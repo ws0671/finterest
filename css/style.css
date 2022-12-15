@@ -106,50 +106,39 @@ nav .signup-btn {
 
 .bricks div:nth-child(1) {
   height: 400px;
-  line-height: 400px;
 }
 .bricks div:nth-child(2) {
   height: 300px;
-  line-height: 300px;
 }
 .bricks div:nth-child(3) {
   height: 500px;
-  line-height: 500px;
 }
 
 .bricks div:nth-child(4) {
   height: 350px;
-  line-height: 350px;
 }
 .bricks div:nth-child(5) {
   height: 200px;
-  line-height: 200px;
 }
 
 .bricks div:nth-child(6) {
   height: 300px;
-  line-height: 300px;
 }
 .bricks div:nth-child(7) {
   height: 250px;
-  line-height: 250px;
 }
 
 .bricks div:nth-child(8) {
   height: 200px;
-  line-height: 200px;
 }
 .bricks div:nth-child(9) {
   height: 400px;
-  line-height: 400px;
 }
 .bricks div:nth-child(10) {
   height: 300px;
-  line-height: 300px;
 }
 .bricks div:nth-child(11) {
   height: 200px;
-  line-height: 200px;
 }
 footer {
   display: flex;
