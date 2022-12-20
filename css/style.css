@@ -199,7 +199,7 @@ footer {
   padding: 20px 0;
   font-size: 20px;
 }
-
+/* 모바일 */
 @media screen and (max-width: 767px) {
   .nav__right div {
     display: none;
@@ -234,6 +234,33 @@ footer {
   }
   .first-line .icons {
     margin-top: 15px;
+  }
+  .status-bar {
+    display: flex;
+  }
+}
+
+/* 타블렛 */
+@media screen and (max-width: 1023px) {
+  .bricks {
+    gap: 10px;
+    margin: 0 20px;
+  }
+  .bricks div {
+    margin: 0;
+  }
+  .first-line {
+    display: block;
+  }
+  .first-line .links a {
+    display: block;
+  }
+  .first-line .icons {
+    margin-top: 15px;
+  }
+  .footer-container {
+    width: 100%;
+    margin: 20px;
   }
   .status-bar {
     display: flex;
