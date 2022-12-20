@@ -34,7 +34,6 @@ nav {
   padding: 10px 20px;
   border-radius: 15px;
   border: none;
-  background-color: white;
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -48,16 +47,21 @@ nav .signup-btn {
   justify-content: center;
   color: black;
   align-items: center;
+  position: relative;
+  padding: 12px 8px;
 }
 .search-form i {
-  position: relative;
-  right: -30px;
+  position: absolute;
+  left: 25px;
 }
 .search-form input {
-  width: 90%;
+  width: 100%;
   border-radius: 20px;
   height: 40px;
   padding: 0 35px;
+}
+.search-form input:focus {
+  outline: none;
 }
 
 .logo {
@@ -89,7 +93,7 @@ nav .signup-btn {
 }
 
 .bricks div {
-  width: 320px;
+  width: 30%;
   background-color: #fff;
   color: black;
   text-align: center;
@@ -144,6 +148,7 @@ footer {
   display: flex;
   justify-content: center;
   color: #8a8887;
+  margin-bottom: 70px;
 }
 
 .first-line {
@@ -177,4 +182,60 @@ footer {
 }
 .second-line div:last-child {
   font-size: 11px;
+}
+
+.status-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgba(211, 211, 211, 0.3);
+  background-color: #000;
+}
+.status-bar div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__right div {
+    display: none;
+  }
+  .nav__right button {
+    margin-left: 0;
+    padding: 5px 10px;
+  }
+  nav {
+    margin: 15px 10px 0 10px;
+  }
+  .signin-btn {
+    background-color: #000;
+    color: #fff;
+  }
+  .logo {
+    width: 180px;
+  }
+  .bricks {
+    max-height: calc(2000px);
+  }
+  .bricks div {
+    width: 47%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .first-line {
+    display: block;
+  }
+  .first-line .links a {
+    display: block;
+  }
+  .first-line .icons {
+    margin-top: 15px;
+  }
+  .status-bar {
+    display: flex;
+  }
 }

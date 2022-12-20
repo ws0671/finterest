@@ -23,3 +23,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+  .profile-content {
+    font-size: 16px;
+    padding: 0 40px;
+  }
+}
