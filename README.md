@@ -6,6 +6,7 @@
 ## 사용 기술
 - html
 - css
+- bootstrap
 
 ## 기능 구현
 - 반응형
